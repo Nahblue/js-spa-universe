@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --ff-text: 'Segoe', sans-serif;
+  --text-color: hsl(0, 0%, 100%);
+  --nav-unfocused: hsl(240, 7%, 78%);
+}
+
+.current-page {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.centralized {
+  display: grid;
+  place-items: center;
+}
+
+.to-the-left {
+  display: grid;
+  padding: 18.2rem 0 0 10.2rem;
+}
+
+body {
+  height: 100vh;
+  
+  background-color: hsl(200, 55%, 9%);
+  
+  font-family: var(--ff-text);
+  color: var(--text-color);
+
+  position: relative;
+}
+
+nav {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+
+  padding: 4rem 7.2rem;
+
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--ff-text);
+  color: var(--nav-unfocused);
+
+  font-size: 2rem;
+}
+
+a:hover {
+  color: var(--text-color);
+}
+
+
+h1 {
+  font-size: 4.8rem;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid var(--text-color);
+  border-radius: 5px;
+
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--text-color);
+  padding: 1.2rem 3.2rem;
+  margin-top: 2.4rem;
+
+  cursor: pointer;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+
+  max-width: 65rem;
+  margin-top: 1.6rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.error-img {
+  max-width: 7rem;
+  filter: contrast(0) brightness(2);
+
+  margin-top: 3rem;
+}
+
+#home,
+#error,
+#universe,
+#exploration {
+  height: 100vh;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#home,
+#error {
+  background-image: url('./assets/home.png');
+}
+
+#universe {
+  background-image: url('./assets/universe.png');
+}
+
+#exploration {
+  background-image: url('./assets/exploration.png');
+}
+
