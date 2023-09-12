@@ -17,7 +17,9 @@ Projeto do SPA Universe, uma spa com informações sobre o universo e sua explor
 <br>
 
 <p align="center">
-  <img alt="spa universe" src="" width="80%">
+  <img alt="spa universe" src="https://i.imgur.com/9Quxc9O.png" width="40%">
+  <img alt="spa universe" src="https://i.imgur.com/g1GyyR7.png" width="40%">
+  <img alt="spa universe" src="https://i.imgur.com/45EK6VB.png" width="40%">
 </p>
 
 ## 🚀 Tecnologias
@@ -34,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto foi criado usando conceitos de spa, rotas, modularização.
 
-- [Visite o projeto online]()
+- [Visite o projeto online](https://js-spa-universe.vercel.app/)
 
 ## :memo: Licença
 
